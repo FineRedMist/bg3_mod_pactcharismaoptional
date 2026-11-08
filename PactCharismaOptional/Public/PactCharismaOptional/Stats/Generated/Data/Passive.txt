@@ -1,0 +1,8 @@
+new entry "PactBladeCharisma"
+	type "PassiveData"
+		data "DisplayName" "h94ae4fc6gd187g489eg8ac9g9d4ce45c7ead;1"
+		data "Description" "hc7789c39g5a64g4226gb3cbg308a621d52f3;1"
+		data "Icon" "PassiveFeature_PactOfTheBlade"
+		data "Properties" "IsToggled;ToggledDefaultOn;Highlighted;ToggledDefaultAddToHotbar"
+		data "ToggleOnFunctors" "ApplyStatus(PACT_BLADE_CHARISMA_ACTIVE, 100, -1)"
+		data "ToggleOffFunctors" "RemoveStatus(PACT_BLADE_CHARISMA_ACTIVE)"
