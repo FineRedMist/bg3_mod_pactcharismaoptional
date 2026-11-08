@@ -1,7 +1,7 @@
 ---Conditioanlly applies the PACT_BLADE_CHARISMA if the character guid has the PactOfTheBlade passive.
 ---@param char GUIDSTRING
 function ConditionalApplyToggleStatus(char)
-    if Osi.HasPassive(char, "PactOfTheBlade") then
+    if Osi.HasPassive(char, "PactOfTheBlade") or Osi.HasPassive(char, 'HexWarrior') then
         Osi.ApplyStatus(char, "PACT_BLADE_CHARISMA", 100, -1)
     end
 end
