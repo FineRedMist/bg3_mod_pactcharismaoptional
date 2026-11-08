@@ -71,7 +71,7 @@ local function ConditionalApplyToggleStatus(char)
     --_P("Testing " .. char .. " for pact of the blade or hex warrior")
     if HasPassive(char, "PactOfTheBlade") or HasPassive(char, "PactOfTheBlade_Hex") or HasPassive(char, "HexWarrior") then
         if not HasAppliedStatus(char, "PACT_BLADE_CHARISMA") then
-            _P("Applying PACT_BLADE_CHARISMA to " .. char)
+            --_P("Applying PACT_BLADE_CHARISMA to " .. char)
             Osi.ApplyStatus(char, "PACT_BLADE_CHARISMA", -1)
             IdTickWait[char] = DefaultTickWait
         end
