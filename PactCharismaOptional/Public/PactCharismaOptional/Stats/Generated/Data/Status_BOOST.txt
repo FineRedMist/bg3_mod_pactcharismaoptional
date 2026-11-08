@@ -13,6 +13,7 @@ new entry "HEXBLADE_BIND"
 new entry "PACT_BLADE_CHARISMA_ACTIVE"
 	type "StatusData"
 		data "StatusType" "BOOST"
+		data "StackId" "PACT_BLADE_CHARISMA_ACTIVE"
 		data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
 		data "StatusGroups" "SG_RemoveOnRespec"
 
